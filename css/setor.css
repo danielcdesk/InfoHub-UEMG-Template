@@ -128,3 +128,15 @@
 .setor-faq-item summary { color:var(--color-primary); cursor:pointer; font-weight:700; }
 .setor-faq-item p { color:var(--color-text-main); margin:var(--spacing-sm) 0 0; line-height:1.6; }
 .cpa-callout { margin-top:0; }
+
+/* Equipe: créditos no conteúdo principal, fora do rodapé institucional */
+.cpa-team { margin-top:var(--spacing-2xl); padding-top:var(--spacing-xl); border-top:1px solid var(--color-border); }
+.cpa-team-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr)); gap:var(--spacing-md); }
+.cpa-member { padding:var(--spacing-lg); background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-lg); box-shadow:var(--shadow-card); }
+.cpa-member-avatar { display:grid; place-items:center; width:48px; height:48px; margin-bottom:var(--spacing-md); border-radius:var(--radius-md); color:#fff; background:var(--color-primary); font-weight:800; letter-spacing:.04em; }
+.cpa-member h3 { color:var(--color-primary-dark); font-size:var(--font-size-md); line-height:1.35; margin-bottom:var(--spacing-xs); }
+.cpa-member p { font-size:var(--font-size-sm); color:var(--color-text-muted); margin-bottom:var(--spacing-md); }
+.cpa-member-links { display:flex; flex-wrap:wrap; gap:var(--spacing-sm); align-items:center; }
+.cpa-member-links a { display:inline-flex; padding:8px 12px; border:1px solid var(--color-primary); border-radius:var(--radius-md); color:var(--color-primary); font-size:var(--font-size-sm); font-weight:700; text-decoration:none; }
+.cpa-member-links a:hover, .cpa-member-links a:focus-visible { background:var(--color-primary); color:#fff; }
+.cpa-link-pending { font-size:var(--font-size-xs); color:var(--color-text-muted); border:1px dashed var(--color-border); border-radius:var(--radius-md); padding:8px; }
