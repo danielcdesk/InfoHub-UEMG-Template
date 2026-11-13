@@ -1,46 +1,27 @@
-# Template Oficial de Página Setorial — InfoHub UEMG Carangola
+# Portal da CPA — UEMG Carangola
 
-Este repositório é o modelo (boilerplate) institucional oficial para o desenvolvimento das páginas setoriais da disciplina de **Programação 2** (Bacharelado em Sistemas de Informação - UEMG Carangola).
+Página informativa da Comissão Própria de Avaliação (CPA) da Universidade do Estado de Minas Gerais, Unidade Carangola. O site apresenta o papel da CPA, explica a autoavaliação institucional e orienta a comunidade acadêmica a acompanhar os canais oficiais e participar quando os instrumentos estiverem disponíveis.
 
----
+## Acesse o site
 
-## 🚀 Como Começar (Início Rápido)
+[**Abrir o portal da CPA**](https://danielcdesk.github.io/InfoHub-UEMG-Template/)
 
-Este projeto foi construído em **HTML5 semântico, CSS3 e JavaScript ES6+ puro**, sem dependência de Node.js, npm ou frameworks pesados.
+## O que você encontra
 
-1. Clone ou baixe este repositório para o seu computador.
-2. Abra a pasta no **VS Code** (ou editor de sua preferência).
-3. Abra o arquivo `index.html` no navegador dando dois cliques ou utilize a extensão **Live Server** no VS Code para desenvolvimento com recarregamento automático.
+- Explicação sobre a CPA e a avaliação institucional;
+- Etapas de escuta, análise e acompanhamento de melhorias;
+- Orientações para participação da comunidade acadêmica;
+- Links e canais oficiais para consultar prazos e instrumentos.
 
----
+## Tecnologias
 
-## 📁 Estrutura do Projeto
+HTML5 semântico, CSS3 e JavaScript, sem dependências de frameworks ou instalação de pacotes.
 
-```text
-├── index.html              # Estrutura principal da página (Header, Hero, Miolo do Setor e Footer)
-├── GUIA_DO_ESTUDANTE.md    # MANUAL COMPLETO de boas práticas, regras de ouro e avaliação
-├── css/
-│   ├── base-uemg.css       # ⛔ NÃO ALTERAR: Estilos oficiais da UEMG (Header, Footer, Modais)
-│   └── setor.css           # ✏️ ÁREA LIVRE: Escreva aqui os estilos CSS do seu setor
-├── js/
-│   ├── base-uemg.js        # ⛔ NÃO ALTERAR: Controle dos modais (<dialog>) e segurança anti-tabnabbing
-│   └── setor.js            # ✏️ ÁREA LIVRE: Escreva aqui a interatividade JavaScript do seu setor
-└── images/
-    ├── logo_uemg_2.jpg     # Logotipo oficial institucional com fundo branco
-    └── UEMG-fachada-1.jpg  # Fotografia histórica da fachada da Unidade Carangola
-```
+## Executar localmente
 
----
+1. Clone ou baixe este repositório.
+2. Abra `index.html` no navegador. Para recarregamento automático durante a edição, use a extensão Live Server no VS Code.
 
-## 🛑 O que pode e o que NÃO pode ser alterado
+## Créditos
 
-| Componente | Pode Alterar? | O que fazer? |
-|---|---|---|
-| **Header (Barra Superior)** | ❌ NÃO | Manter intacto para preservar a identidade visual institucional e o link de retorno ao Hub. |
-| **Hero Banner** | ⚠️ PARCIAL | Altere **apenas** o número do setor, o título oficial, a síntese descritiva e os 3 indicadores. Não altere as classes CSS base. |
-| **Conteúdo do Setor (`<main>`)** |  SIM | **Área 100% livre!** Crie seções, cards, sanfonas de dúvidas frequentes, fluxos de atendimento, tabelas e botões. |
-| **Footer & Modais** | ❌ NÃO | Manter intacto para garantir conformidade legal com a LGPD e termos do projeto de extensão. |
-
----
-
-> 📖 **IMPORTANTE:** Leia atentamente o arquivo [GUIA_DO_ESTUDANTE.md](GUIA_DO_ESTUDANTE.md) antes de iniciar a codificação para conferir as regras de acessibilidade, links seguros e critérios de aceite do projeto.
+Projeto acadêmico desenvolvido por estudantes de Sistemas de Informação da UEMG — Unidade Carangola. Os integrantes estão identificados na seção de equipe do próprio site.
